@@ -7,25 +7,25 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<div>
-			<img src="Assets/image/Logo.svg" alt="Logo da Travelgram">
-		</div>
-		<div>
-			<img src="Assets/image/MagnifyingGlass.svg" alt="Imagem de uma lupa de busca">
-			<p>
-				Explorar
-			</p>
-			<p>
-				Minhas viagens
-			</p>
-			<img src="Assets/image/Profile pic.png" alt="Foto do perfil do usuário">
-		</div>
+	<header class="container">
+			<div class="logo">
+				<img  src="Assets/image/Logo.svg" alt="Logo da Travelgram">
+			</div>
+			<div class="menu1">
+				<img class="icon" src="Assets/image/MagnifyingGlass.svg" alt="Imagem de uma lupa de busca">
+				<a href="#">
+					Explorar
+				</a>
+				<a href="#">
+					Minhas viagens
+				</a>
+				<img class="icon-profile" src="Assets/image/Profile pic.png" alt="Foto do perfil do usuário">
+			</div>
 	</header>
 	<main>
-		<section>
-			<div>
-				<img src="Assets/image/Profile pic.png" alt="Foto do perfil do usuário">
+		<section class="container-2">
+				<img class="img-profile" src="Assets/image/Profile pic.png" alt="Foto do perfil do usuário">
+				<div class="profile">
 				<h1>
 					Isabela Torres
 				</h1>
@@ -34,26 +34,28 @@
 					Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸
 				</p>
 			</div>
-			<div>
-				<img src="Assets/image/MapPin.svg" alt="Imagem de localização">
-				<p>
-					São Paulo, Brazil
-				</p>
-			</div>
-			<div>
-				<img src="Assets/image/AirplaneTilt.svg" alt="Imagem de avião">
-				<p>
-					37 países
-				</p>
-			</div>
-			<div>
-				<img src="Assets/image/Image.svg" alt="">
-				<p>
-					240 fotos
-				</p>
+			<div class="localization">
+				<div>
+					<img class="icon-localization" src="Assets/image/MapPin.svg" alt="Imagem de localização">
+					<p>
+						São Paulo, Brazil
+					</p>
+				</div>
+				<div>
+					<img class="icon-localization"src="Assets/image/AirplaneTilt.svg" alt="Imagem de avião">
+					<p>
+						37 países
+					</p>
+				</div>
+				<div>
+					<img class="icon-localization"src="Assets/image/Image.svg" alt="">
+					<p>
+						240 fotos
+					</p>
+				</div>	
 			</div>
 		</section>
-	  <section>
+	  <section class="container-3">
 			<div>
 				<img src="Assets/image/Image 01.png" alt="">
 			</div>
@@ -96,8 +98,10 @@
 		<p>
 			Travelgram © 2024
 		</p>
-		<a href="#">Termos de uso</a>
-		<a href="#">Política de privacidade</a>
+		<div>
+			<a href="#">Termos de uso</a>
+			<a href="#">Política de privacidade</a>
+		</div>
 	</footer>
 </body>
 </html>
